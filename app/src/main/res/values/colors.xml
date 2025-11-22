@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="login_background">#FFEFF3F8</color>
+    <color name="login_surface">#FFFFFFFF</color>
+    <color name="login_primary">#FF3F51B5</color>
+    <color name="login_label">#FF1F2933</color>
+    <color name="login_hint">#FF6B7280</color>
+</resources>    

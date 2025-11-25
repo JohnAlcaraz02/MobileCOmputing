@@ -34,7 +34,7 @@
             android:layout_marginBottom="24dp" />
 
         <TextView
-            android:id="@+id/labelUsername"
+            android:id="@+id/labelEmail"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Username"
@@ -47,15 +47,15 @@
             android:layout_marginTop="8dp">
 
             <com.google.android.material.textfield.TextInputEditText
-                android:id="@+id/inputUsername"
+                android:id="@+id/inputEmail"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:inputType="textPersonName"
+                android:inputType="textEmailAddress"
                 android:background="@color/login_input_background"
                 android:padding="12dp"
                 android:textColor="@color/login_label"
                 android:textColorHint="@color/login_hint"
-                android:hint="Enter username" />
+                android:hint="Enter your email" />
 
         </com.google.android.material.textfield.TextInputLayout>
 
@@ -97,6 +97,32 @@
             android:textAllCaps="false"
             android:backgroundTint="@color/login_button"
             android:textColor="@color/login_label" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Don't have an account? "
+                android:textColor="@color/login_hint"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+            <TextView
+                android:id="@+id/textSignUp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Create Account"
+                android:textColor="@color/login_primary"
+                android:textStyle="bold"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:clickable="true"
+                android:focusable="true" />
+
+        </LinearLayout>
 
     </LinearLayout>
 

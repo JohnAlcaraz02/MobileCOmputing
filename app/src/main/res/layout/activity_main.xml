@@ -36,9 +36,8 @@
                     <!-- Logo -->
                     <ImageView
                         android:id="@+id/imageLoginLogo"
-                        android:layout_width="50dp"
-                        android:layout_height="50dp"
-                        android:layout_marginBottom="20dp"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
                         android:contentDescription="@string/app_logo"
                         android:scaleType="fitCenter"
                         android:src="@drawable/ic_logo" />

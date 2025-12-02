@@ -254,7 +254,7 @@
                             android:lineSpacingExtra="2dp"
                             android:layout_marginBottom="12dp"/>
 
-                        <Button
+                        <androidx.appcompat.widget.AppCompatButton
                             android:id="@+id/btnBindNow"
                             android:layout_width="wrap_content"
                             android:layout_height="36dp"
@@ -279,10 +279,10 @@
             </androidx.cardview.widget.CardView>
 
             <!-- See All Services Button -->
-            <Button
+            <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/btnSeeAllServices"
                 android:layout_width="match_parent"
-                android:layout_height="48dp"
+                android:layout_height="30dp"
                 android:text="See All Services"
                 android:textColor="#FFFFFF"
                 android:textSize="14sp"
@@ -652,6 +652,7 @@
         app:borderWidth="0dp"
         app:elevation="6dp"
         app:layout_anchor="@id/bottomAppBar"
-        app:tint="#FFFFFF" />
+        app:tint="@null"
+        app:maxImageSize="40dp" />
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#0D0066"
+    tools:context=".LandingActivity">
+
+    <!-- Top White Section with Logo -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@drawable/rounded_bottom_bg"
+        android:elevation="8dp"
+        android:clipToOutline="true"
+        android:gravity="center">
+
+        <!-- Logo with Shadow -->
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true">
+
+            <!-- Logo Shadow -->
+            <ImageView
+                android:id="@+id/imageLogoShadow"
+                android:layout_width="280dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="1in"
+                android:contentDescription="Logo shadow"
+                android:src="@drawable/shadow"
+                android:scaleType="fitCenter" />
+
+            <!-- Main Large Logo -->
+            <ImageView
+                android:id="@+id/imageLogo"
+                android:layout_width="280dp"
+                android:layout_height="280dp"
+                android:layout_gravity="center"
+                android:contentDescription="@string/app_logo"
+                android:src="@drawable/ic_logo"
+                android:scaleType="fitCenter" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="59dp"
+                android:layout_height="55dp"
+                android:layout_gravity="center_horizontal|top"
+                android:layout_marginTop="30dp"
+                app:srcCompat="@drawable/ic_logo_small" />
+
+        </FrameLayout>
+
+    </RelativeLayout>
+
+    <!-- Bottom Dark Blue Section with Text and Buttons -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:paddingHorizontal="32dp"
+        android:paddingTop="24dp"
+        android:paddingBottom="48dp">
+
+        <!-- Welcome Text -->
+        <TextView
+            android:id="@+id/textWelcome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="6dp"
+            android:letterSpacing="0.12"
+            android:text="WELCOME TO"
+            android:textColor="@android:color/white"
+            android:textSize="26sp"
+            android:textStyle="bold" />
+
+        <!-- Title Line 1 with CICS highlighted -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:letterSpacing="0.05"
+                android:text="A"
+                android:textColor="@android:color/white"
+                android:textSize="28sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:letterSpacing="0.05"
+                android:text="CICS"
+                android:textColor="#00D4FF"
+                android:textSize="28sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:letterSpacing="0.05"
+                android:text="TANCE CORNER"
+                android:textColor="@android:color/white"
+                android:textSize="28sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <!-- Subtitle -->
+        <TextView
+            android:id="@+id/textSubtitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="36dp"
+            android:lineSpacingExtra="3dp"
+            android:text="By the College of Informatics and Computing\nSciences - Student Council"
+            android:textAlignment="center"
+            android:textColor="#DDDDDD"
+            android:textSize="11sp" />
+
+        <!-- Login Button -->
+        <Button
+            android:id="@+id/buttonLandingLogin"
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+            android:layout_marginBottom="16dp"
+            android:backgroundTint="#00D4FF"
+            android:text="LOGIN"
+            android:textColor="@android:color/white"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <!-- Sign Up Button -->
+        <Button
+            android:id="@+id/buttonLandingSignUp"
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+            android:backgroundTint="#00D4FF"
+            android:text="SIGN UP"
+            android:textColor="@android:color/white"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,3 +1,36 @@
 <resources>
     <string name="app_name">Mobile COmputing</string>
+    <string name="app_logo">ACICS Logo</string>
+
+    <!-- Home Screen Strings -->
+    <string name="search_hint">Search for acicstance</string>
+    <string name="about_us_title">About Us</string>
+    <string name="about_us_description">A peer-tutoring initiative of the CICS Student Council for connecting students through the University\'s Health Services Office, offering academic, mental, and psychosocial assistance and support services.</string>
+    <string name="about_us_sdg">It aligns with two key UN Sustainable Development Goals:</string>
+
+    <string name="whats_new_title">What\'s New?</string>
+    <string name="binding_sponsorship_title">BINDING SPONSORSHIP</string>
+    <string name="binding_sponsorship_description">A program introduces for supporting CICS students in printing and binding their theses or projects.</string>
+    <string name="bind_now">Bind Now</string>
+
+    <string name="see_all_services">See All Services</string>
+    <string name="quick_acicstance">Quick Acicstance</string>
+
+    <string name="print_request_title">Print Request</string>
+    <string name="print_request_description">Easily submit your files and have them printed</string>
+
+    <string name="supplies_granting_title">Supplies Granting</string>
+    <string name="supplies_granting_description">Get school supplies provided</string>
+
+    <string name="hygiene_kits_title">Hygiene Kits</string>
+    <string name="hygiene_kits_description">Receive essential hygiene items for your health and well-being</string>
+
+    <string name="borrow_equipment_title">Borrow Equipment</string>
+    <string name="borrow_equipment_description">Access needed materials for classes</string>
+
+    <!-- Bottom Navigation -->
+    <string name="nav_home">Home</string>
+    <string name="nav_services">Services</string>
+    <string name="nav_notifications">Notifications</string>
+    <string name="nav_logout">Logout</string>
 </resources>

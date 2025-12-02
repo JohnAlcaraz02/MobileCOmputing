@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "494440625526",
+    "project_id": "mobile-computi",
+    "storage_bucket": "mobile-computi.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:494440625526:android:5205399a279d7ee147f657",
+        "android_client_info": {
+          "package_name": "com.example.mobilecomputing"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "494440625526-tvcko2fok2n5ecauhcuttsavmhllb6oa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyACfjCRBdpTCPu2-2-evNa82Sf49_4KVjg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "494440625526-tvcko2fok2n5ecauhcuttsavmhllb6oa.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

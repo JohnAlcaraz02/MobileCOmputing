@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Base shape with rounded corners -->
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="#FFFFFF" />
+            <corners
+                android:bottomLeftRadius="50dp"
+                android:bottomRightRadius="50dp"
+                android:topLeftRadius="0dp"
+                android:topRightRadius="0dp"/>
+        </shape>
+    </item>
+
+    <!-- Top 20% gradient: #86E2FF to white -->
+    <item android:height="50dp" android:gravity="top">
+        <shape android:shape="rectangle">
+            <gradient
+                android:type="linear"
+                android:angle="270"
+                android:startColor="#86E2FF"
+                android:endColor="#FFFFFF" />
+        </shape>
+    </item>
+
+    <!-- Bottom 20% gradient: white to #86E2FF -->
+    <item android:height="50dp" android:gravity="bottom">
+        <shape android:shape="rectangle">
+            <gradient
+                android:type="linear"
+                android:angle="270"
+                android:startColor="#FFFFFF"
+                android:endColor="#86E2FF" />
+            <corners
+                android:bottomLeftRadius="50dp"
+                android:bottomRightRadius="50dp"
+                android:topLeftRadius="0dp"
+                android:topRightRadius="0dp"/>
+        </shape>
+    </item>
+
+</layer-list>

@@ -4,7 +4,7 @@
 
 # 📱 MOBILE ACICSTANCE 📱
 
-**Mobile aCICStance** is the official mobile platform of the **ACICSTANCe Corner** initiative of the CICS Student Council – Alangilan. Designed to bring the corner’s academic and wellness support services directly to students, the app allows CICS learners to conveniently access essential assistance anytime and anywhere.
+**Mobile aCICStance** is the official mobile platform of the **ACICSTANCe Corner**, an initiative of the CICS Student Council – Alangilan. Designed to bring the corner’s academic and wellness support services directly to students, the app allows CICS learners to conveniently access essential assistance anytime and anywhere.
 
 Developed using **Kotlin**, **Jetpack Compose**, and modern **Android development** practices, the app integrates *Firebase Authentication* and *Firestore/Realtime Database* to ensure a secure, streamlined, and user-friendly experience.
 
